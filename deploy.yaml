@@ -7,7 +7,7 @@ metadata:
   name: todo-app
   namespace: argocd-apps
 spec:
-  replicas: 2
+  replicas: 0
   selector:
     matchLabels:
       app: todo-app
